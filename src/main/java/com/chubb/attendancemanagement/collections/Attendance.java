@@ -1,6 +1,9 @@
 package com.chubb.attendancemanagement.collections;
 
+import lombok.Data;
+
+@Data
 public class Attendance {
-	String date;
-	Boolean status;
+	private String date;
+	private String status;
 }
