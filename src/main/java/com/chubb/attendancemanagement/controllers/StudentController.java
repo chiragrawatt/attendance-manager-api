@@ -17,7 +17,7 @@ import com.chubb.attendancemanagement.collections.Attendance;
 import com.chubb.attendancemanagement.collections.Student;
 import com.chubb.attendancemanagement.services.StudentService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/student")
 public class StudentController {
